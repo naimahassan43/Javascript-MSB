@@ -22,3 +22,17 @@ let person = {
 console.log(person.age);
 console.log(person.homeAddress.lat);
 console.log(person.friends[1]);
+
+/*****************JS Operators***********************/
+// Arithmetic Operators
+
+let num1 = 19;
+let num2 = 2;
+
+console.log(num1+num2);
+console.log(num1-num2);
+console.log(num1*num2);
+console.log(num1/num2);
+console.log(num1**num2);
+console.log(num1%num2);
+console.log(36%2);
