@@ -35,4 +35,18 @@ console.log(num1*num2);
 console.log(num1/num2);
 console.log(num1**num2);
 console.log(num1%num2);
-console.log(36%2);
+console.log(36 % 2);
+
+// Assignment Operators =
+num1 += 2;
+
+// Comparison Operators 
+// < > >= <= === !==
+
+let price = 100;
+
+console.log(price>200);
+console.log(price>=100);
+console.log(price===100);
+console.log(price!==100);
+
