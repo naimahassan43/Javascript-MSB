@@ -47,6 +47,32 @@ let price = 100;
 
 console.log(price>200);
 console.log(price>=100);
-console.log(price===100);
-console.log(price!==100);
+console.log(price==100);
+console.log(price!=100);
+
+// Logical Operators and(&&), or(||), not(!) 
+
+let tk = 15;
+console.log(tk>50 && tk<15);
+console.log(tk>50 || tk<=15);
+console.log(!(tk<=15));
+console.log(tk>50 || tk!=15);
+
+// Equality Operators === !== data type & value both checked for triple ===
+
+//Exercise- Swap two numbers
+// a= 10, b=20
+//After swapping a and b 
+// a=20, b=10
+
+let a = 10;
+let b = 20;
+
+let temp = a; //temp=10
+a = b; //a=20,b=20
+b = temp;
+
+console.log(a,b)
+
+
 
