@@ -138,4 +138,18 @@ if (fizzNumber % 3 === 0 && fizzNumber % 5 === 0) {
 // Solve using Ternary operator
 console.log(fizzNumber % 3 === 0 && fizzNumber % 5 === 0
   ? "FizzBuzz" : fizzNumber % 3 == 0 ? "Fizz" : fizzNumber % 5 === 0
-  ? "Buzz" : "Nothing"); 
+    ? "Buzz" : "Nothing"); 
+//Problem: check a year is leap year or not 
+//1. Pick a year
+//2. if the year is divisible by 400, then it is a leap year
+//3. if the year is divisible by 4 and not divisible by 100, it is a leap year
+//4. otherwise, the year is not a leap year
+let year = 2001;
+
+if (year % 400 === 0) {
+  console.log("This Year is a leap year")
+} else if (year % 4 === 0 && year % 100 !== 0) {
+  console.log("This Year is a leap year");
+} else {
+  console.log("This Year is not a leap year");
+}
