@@ -74,5 +74,48 @@ b = temp;
 
 console.log(a,b)
 
+// ***********Conditional statements*************//
+//If ..else
+
+let number = 0;
+if (number > 0) {
+  console.log("This is a positive number");
+} else if (number < 0) {
+  console.log("This is a negative number");
+} else {
+  console.log("This is zero");
+}
+//Switch..case 
+
+let color = 'blue';
+
+switch (color) {
+  case 'red':
+    console.log('This is red');
+    break;
+  case 'white': 
+    console.log('This is white');
+    break;
+  case 'green':
+    console.log('This is green');
+    break;
+  default:
+    console.log('This is not a valid color');
+}
+
+// Ternary Operators
+
+let n1 = 10;
+let n2 = 2;
+let maxValue;
+
+let max = n1>n2?n1:n2;   // if (n1 > n2) maxValue = n1;
+   // else maxValue = n2;
+
+console.log(max);
+
+let number1 = 13;
+console.log(number1 % 2 === 0 ?"Even Number":"Odd Number");
+
 
 
