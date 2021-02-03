@@ -116,6 +116,26 @@ console.log(max);
 
 let number1 = 13;
 console.log(number1 % 2 === 0 ?"Even Number":"Odd Number");
+//Problem:FizzBuzz
+//Take a number 
+//If it is divisible by 3, print Fizz
+//If it is divisible by 5, print Buzz
+//If it is divisible by both 3 & 5, print FizzBuzz
+//Otherwise, print Nothing
 
+let fizzNumber = 30;
 
+if (fizzNumber % 3 === 0 && fizzNumber % 5 === 0) {
+  console.log("This is FizzBuzz");
+} else if (fizzNumber % 3 == 0) {
+  console.log("This is Fizz");
+} else if (fizzNumber % 5 === 0) {
+  console.log("This is Buzz");
+} else {
+  console.log("Nothing to show!!");
+}
 
+// Solve using Ternary operator
+console.log(fizzNumber % 3 === 0 && fizzNumber % 5 === 0
+  ? "FizzBuzz" : fizzNumber % 3 == 0 ? "Fizz" : fizzNumber % 5 === 0
+  ? "Buzz" : "Nothing"); 
