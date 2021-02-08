@@ -240,10 +240,18 @@ for (let index = 1; index <= 20; index++) {
     break;
   }
 }
-//continue
+//continue: iterartion skip 
 for (let index = 1; index <= 25; index++) {
   if (index % 2 === 1) {
     continue;
   }
   console.log(index); 
+}
+
+//Infinite loop
+//Nested loop
+for (let i = 1; i <= 5; i++) {
+  for (let j = 1; j <= 7; j++) {
+    console.log(i, j);
+  }
 }
