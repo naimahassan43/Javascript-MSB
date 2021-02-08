@@ -279,3 +279,34 @@ for (let index = 0; index < nums.length; index++) {
   sum += nums[index];
 }
 console.log(sum);
+
+//Prime numbers
+//Prime numbers is only divisible by 1 and itself.
+//Check 2, 3,...number-1 
+
+let numPr = 10;
+
+let isPrime = true;
+for (let i = 2; i <= numPr-1; i++) {
+  if (numPr % i === 0) {
+    isPrime = false;
+    break;
+  }
+}
+
+if (isPrime) console.log('This is a prime number');
+else console.log('This is not a prime number');
+// 10 to 20 which are the prime numbers
+
+let num_pr = 10;
+for (let num_pr = 10; num_pr <= 20; num_pr++) {
+  let isPrime = true;
+  for (let i = 2; i <= num_pr - 1; i++) {
+    if (num_pr % i === 0) {
+      isPrime = false;
+      break;
+    }
+  }
+
+  if (isPrime) console.log(num_pr,'is a prime number');
+}
