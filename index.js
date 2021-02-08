@@ -227,3 +227,23 @@ console.log(numbers);
 for (let index in numbers) {
   console.log(index, numbers[index]);
 }
+//for...of loop
+for (let num of numbers) {
+  console.log(num);
+}
+
+//Break & Continue
+for (let index = 1; index <= 20; index++) {
+  console.log(index);
+
+  if (index === 9) {
+    break;
+  }
+}
+//continue
+for (let index = 1; index <= 25; index++) {
+  if (index % 2 === 1) {
+    continue;
+  }
+  console.log(index); 
+}
