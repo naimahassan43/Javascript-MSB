@@ -255,3 +255,17 @@ for (let i = 1; i <= 5; i++) {
     console.log(i, j);
   }
 }
+
+/******* Exercise: Even Odd Numbers*******/
+
+for (let index = 1; index <= 20; index++) {
+  if (index % 2 === 1) {
+    console.log(index + ' is an odd number');
+  } else {
+    console.log(index + ' is an even number');
+  }
+}
+
+for (let index = 1; index <= 10; index+=2) {
+  console.log(index + ' is an odd number');
+}
