@@ -211,3 +211,19 @@ do {
 } while (indx <= 3);
 
 console.log(indx);
+
+//for...in
+const obj = {
+  name: 'John',
+  age: '19',
+};
+
+for (let key in obj) {
+  console.log(key, obj[key]);
+}
+let numbers = [1, 2, 3, 4];
+console.log(numbers);
+
+for (let index in numbers) {
+  console.log(index, numbers[index]);
+}
