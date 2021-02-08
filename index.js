@@ -182,3 +182,32 @@ if(mark<0 || mark>100){
 } else {
   console.log('F')
 }
+
+/********Loops*************/
+
+//for loop
+for (let index = 1; index <= 3; index++){
+  console.log('Hi!', index);
+}
+for (let index = 3; index >= 1; index--){
+  console.log('Hello!',index);
+} 
+
+//while loop
+let index = 1;
+while (index <= 7) {
+  console.log('Hello World!', index);
+  index++;
+}
+
+console.log(index);
+
+// do...while loop
+
+let indx = 10;
+do {
+  console.log('Hello!', indx);
+  indx++;
+} while (indx <= 3);
+
+console.log(indx);
