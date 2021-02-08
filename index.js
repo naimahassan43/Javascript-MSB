@@ -269,3 +269,13 @@ for (let index = 1; index <= 20; index++) {
 for (let index = 1; index <= 10; index+=2) {
   console.log(index + ' is an odd number');
 }
+//Exercise: Sum of all numbers in an array.
+// numbers = [10, 20, 30, 40, 50]
+// result = 150
+let nums = [10, 20, 30, 40, 50];
+let sum = 0;
+
+for (let index = 0; index < nums.length; index++) {
+  sum += nums[index];
+}
+console.log(sum);
