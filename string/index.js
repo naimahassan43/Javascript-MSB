@@ -71,5 +71,15 @@ console.log(msn.slice(0, 6)); // 0-5
 // console.log(msn.slice()); 
 // console.log(msn.slice(-6,-1)); 
 
-console.log(msn.substring(0, 6));
-console.log(msn.substr(0,13))
+// console.log(msn.substring(0, 6));
+// console.log(msn.substr(0,13))
+
+//Escape Sequence
+
+let ms = 'He said, "It\'s a sunny day".\nHave a good day\t.\\.'
+console.log(ms);
+
+//String Immutability
+let mgn = 'Jello World';
+mgn = 'Hello, world'
+console.log(mgn);
