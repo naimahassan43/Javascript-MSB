@@ -1,4 +1,4 @@
-//Cloning an Object
+//**********************Cloning an Object**********************/
 const user = {
   name: 'john',
   age: 47,
@@ -20,4 +20,16 @@ const user = {
 
 const copiedUser = { ...user };
 console.log(copiedUser);
+
+//********************** Math Object**********************/
+
+console.log(Math.PI);
+console.log(Math.random());
+
+console.log(Math.round(1.4));
+console.log(Math.floor(1.4));
+console.log(Math.ceil(1.4));
+
+console.log(Math.max(12,32,87,-87,0));
+console.log(Math.min(12,32,87,-87,0));
 // node object/index1.js
