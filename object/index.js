@@ -56,4 +56,3 @@ console.log(Object.values(user2));
 for (let val of Object.values(user2)) {
   console.log(val);
 }
-// node object/index.js
