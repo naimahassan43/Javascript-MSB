@@ -56,3 +56,27 @@ console.log(Object.values(user2));
 for (let val of Object.values(user2)) {
   console.log(val);
 }
+/************* 
+ * Object Destructuring
+ * ********************/
+const user3 = {
+  name: 'john',
+  age: 47,
+  gender: 'male',
+  favBook: {
+    title: 'Normal People',
+    author: 'Sally'
+  },
+};
+
+// console.log(user3.name);
+// console.log(user3.age);
+// console.log(user3.gender);
+// console.log(user3.favBook.title);
+//destructuring
+const { name, age, gender, favBook } = user3;
+const {title, author} = favBook;
+console.log(name);
+console.log(gender);
+console.log(author);
+// node object/index.js
