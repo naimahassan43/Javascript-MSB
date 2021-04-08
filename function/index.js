@@ -48,6 +48,17 @@ console.log(calcSumArr(10, 20));
 const mulByTwo =  num1 => num1 * 3;
 console.log(mulByTwo(9));
 
+/************* Rest Parameter  **************/
+
+function multiply(...args) {
+  // console.log(args);
+  let mulp = 1;
+  for (let num of args) {
+    mulp *= num;
+  }
+  return mulp;
+}
+console.log(multiply(2, 3,8,10));
 // node function/index.js
 
 
