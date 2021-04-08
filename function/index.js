@@ -22,6 +22,32 @@ function addThreeNumbers(num1, num2=10, num3=64) {
   return sum;
 }
 console.log(addThreeNumbers(19));
+
+/************* Hosting, Function as Expression **************/
+//Hosting
+function calcSum(num1, num2) {
+  const sum = num1 + num2;
+  return sum;
+}
+console.log(calcSum(5, 6));
+
+//Function Expression
+
+const val = 10;
+const calcSumExp = function (num1, num2) {
+  const sum = num1 + num2;
+  return sum;
+}
+console.log(calcSumExp(10, 49));
+
+/************* Arrow Function  **************/
+
+const calcSumArr = (num1, num2) => num1 + num2;
+console.log(calcSumArr(10, 20));
+
+const mulByTwo =  num1 => num1 * 3;
+console.log(mulByTwo(9));
+
 // node function/index.js
 
 
