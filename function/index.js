@@ -1,3 +1,4 @@
+/*************Basic Functions**************/
 //Function Declaration
 
 function aboutMe(name,age) {
@@ -13,6 +14,14 @@ function calSum(num1, num2) {
 }
 let result = calSum(19, 30);
 console.log(result);
+
+/*************Default Parameters**************/
+
+function addThreeNumbers(num1, num2=10, num3=64) {
+  const sum = num1 + num2 + num3;
+  return sum;
+}
+console.log(addThreeNumbers(19));
 // node function/index.js
 
 
