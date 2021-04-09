@@ -57,5 +57,6 @@ const doctors = [
 //    doctor.name === 'mary');
 // console.log(result);
 console.log(doctors.findIndex( (doctor) =>
-   doctor.name === 'smith'));
+  doctor.name === 'smith'));
+   
 // node Array/index.js
