@@ -29,4 +29,18 @@ const numbs = [1, 2, 3, 4, 5, 6,7,8];
 // const sliceArray = numbs.slice(2,5);
 const sliceArray = numbs.slice();
 console.log(sliceArray);
+/******Array: Spread Operator *********/
+const numbers1 = [1, 2, 3, 4, 5, 6,];
+
+console.log(...numbers1);
+console.log(numbers1[0], numbers1[1], numbers1[2], numbers1[3]); //Same as above
+
+const copiedArray = [...numbers1]; //clone array
+console.log(copiedArray);
+
+const number1 = [11, 22, 33];
+const number2 = [44, 55, 56];
+
+const number3 = [...number1, ...number2];
+console.log(number3);
 // node Array/index2.js
