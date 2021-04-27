@@ -1,12 +1,5 @@
 /********** Replacing Callbacks with Promises **********/
 
-
-// fetchUser(123, function(user) {
-//     console.log(user);
-//     sendMail(user.email, function(response) {
-//         console.log(response.success);
-//     });
-// });
 fetchUser(123)
     .then(user => sendMail(user.email))
     .then(response => console.log(response))
