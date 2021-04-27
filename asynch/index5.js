@@ -1,6 +1,6 @@
 /**
  * Multiple promise
- */
+ * */
 const promise1 = new Promise((resolve, reject) => {
     setTimeout(() => resolve(1), 2000);
 });
